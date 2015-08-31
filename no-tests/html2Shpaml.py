@@ -1,1 +1,0 @@
-/home/joe/html2Shpaml/html2shpaml/__init__.py
