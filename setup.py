@@ -2,13 +2,16 @@
 
 from distutils.core import setup
 
-setup(name='Html2Shpaml',
-      version='0.2.0',
-      description='A forgiving html to shpaml converter.',
-      author='Timothy Crosley',
-      author_email='timothy.crosley@gmail.com',
-      url='http://www.simpleinnovation.org/',
-      download_url='https://github.com/timothycrosley/Html2Shpaml/blob/master/dist/Html2Shpaml-0.2.0.tar.gz?raw=true',
-      license = "GNU GPLv2",
-      scripts=['scripts/html2Shpaml',],
-      install_requires=['webelements>=1.0.0-beta.2',],)
+setup (
+    name         = 'Html2Shpaml',
+    packages     = ['html2shpaml','webelements'],
+    version      = '0.2.1',
+    description  = 'A forgiving html to shpaml converter.',
+    author       = 'Timothy Crosley',
+    author_email = 'timothy.crosley@gmail.com',
+    url          = 'https://github.com/jowolf/Html2Shpaml',
+    download_url = 'https://github.com/jowolf/Html2Shpaml/archive/master.zip',
+    license      = "GNU GPLv2",
+    #scripts     = ['scripts/html2Shpaml',],
+    #install_requires = ['webelements>=1.0.0-beta.2',],
+)
