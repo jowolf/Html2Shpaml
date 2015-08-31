@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup (
     name         = 'Html2Shpaml',
-    packages     = ['html2shpaml','webelements'],
+    packages     = ['html2shpaml','WebElements'],
     version      = '0.2.1',
     description  = 'A forgiving html to shpaml converter.',
     author       = 'Timothy Crosley',
